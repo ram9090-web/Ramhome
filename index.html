@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ramkrishna Tools</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PASSWORD SCREEN -->
+    <div id="loginScreen" class="login-screen">
+
+        <div class="login-box">
+
+            <div class="login-icon">🔐</div>
+
+            <h1>Ramkrishna Tools</h1>
+
+            <p>Enter password to continue</p>
+
+            <input
+                type="password"
+                id="passwordInput"
+                placeholder="Enter password"
+                autocomplete="off"
+            >
+
+            <button onclick="checkPassword()">
+                Open Tools
+            </button>
+
+            <p id="errorMessage" class="error-message"></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- MAIN WEBSITE -->
+    <div id="mainContent" class="hidden">
+
+        <!-- HEADER -->
+        <header>
+
+            <div class="logo">
+                Ramkrishna Tools
+            </div>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#tools">Tools</a>
+                <a href="#">About</a>
+            </nav>
+
+        </header>
+
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <h1>
+                Tools by <span>Ramkrishna</span>
+            </h1>
+
+            <p>
+                A collection of useful online tools for students,
+                researchers, developers and everyday tasks.
+            </p>
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    placeholder="Search tools..."
+                    id="searchInput"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- TOOLS -->
+        <section class="tools-section" id="tools">
+
+            <div class="section-title">
+
+                <h2>Explore Tools</h2>
+
+                <p>
+                    Choose a category to explore useful tools.
+                </p>
+
+            </div>
+
+
+            <div class="tool-grid">
+
+                <a href="#" class="tool-card">
+                    <div class="tool-icon">🧮</div>
+                    <h3>Math Tools</h3>
+                    <p>
+                        Calculators, percentage, square root,
+                        cube and other mathematical tools.
+                    </p>
+                </a>
+
+
+                <a href="#" class="tool-card">
+                    <div class="tool-icon">🌍</div>
+                    <h3>Geography Tools</h3>
+                    <p>
+                        Geography, GIS, maps, coordinates
+                        and spatial calculation tools.
+                    </p>
+                </a>
+
+
+                <a href="#" class="tool-card">
+                    <div class="tool-icon">📊</div>
+                    <h3>Data Tools</h3>
+                    <p>
+                        Data analysis, statistics,
+                        tables and conversion tools.
+                    </p>
+                </a>
+
+
+                <a href="#" class="tool-card">
+                    <div class="tool-icon">💻</div>
+                    <h3>Developer Tools</h3>
+                    <p>
+                        Useful tools for programmers,
+                        developers and computer users.
+                    </p>
+                </a>
+
+
+                <a href="#" class="tool-card">
+                    <div class="tool-icon">📚</div>
+                    <h3>Study Tools</h3>
+                    <p>
+                        Tools for students, learning,
+                        revision and examination preparation.
+                    </p>
+                </a>
+
+
+                <a href="#" class="tool-card">
+                    <div class="tool-icon">🔄</div>
+                    <h3>Converters</h3>
+                    <p>
+                        Convert units, measurements,
+                        numbers and different formats.
+                    </p>
+                </a>
+
+
+                <a href="#" class="tool-card">
+                    <div class="tool-icon">📝</div>
+                    <h3>Text Tools</h3>
+                    <p>
+                        Text formatting, counting,
+                        cleaning and editing tools.
+                    </p>
+                </a>
+
+
+                <a href="#" class="tool-card">
+                    <div class="tool-icon">🖼️</div>
+                    <h3>Image Tools</h3>
+                    <p>
+                        Image resizing, compression,
+                        conversion and other utilities.
+                    </p>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            © 2026 <strong>Ramkrishna Tools</strong>
+            — All Rights Reserved.
+
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
